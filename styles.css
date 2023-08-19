@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
+  
+  /* AddItem Component */
+  .AddItem {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .SearchItem input,
+  .AddItem input,
+  .AddItem button{
+    padding: 0.4rem;
+    outline: none;
+  }
+  /* SearchItem Component */
+  .SearchItem {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  /* Page Component */
+  .Page {
+    margin-top: 1rem;
+  }
+  
+  /* Item List */
+  .ItemList {
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    position: fixed;
+    width: 75%;
+    height: 3rem;
+    left: 13%;
+  }
+  .ItemList .item{
+    outline: #eee;
+    text-align: center;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .delete,
+  .input
+  {
+   color: blue;
+   height: 1.5rem;
+   width: 1.5rem;
+  }
+  .item label {
+    flex-grow: 1;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .item label:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Component */
+  footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  

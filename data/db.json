@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": 4,
+      "checked": false,
+      "item": "Learn  Java Backend"
+    },
+    {
+      "id": 5,
+      "checked": false,
+      "item": "Masters DSA"
+    },
+    {
+      "id": 6,
+      "checked": true,
+      "item": "Masters Coding"
+    },
+    {
+      "id": 7,
+      "checked": false,
+      "item": "Masters MERN"
+    }
+  ]
+}
